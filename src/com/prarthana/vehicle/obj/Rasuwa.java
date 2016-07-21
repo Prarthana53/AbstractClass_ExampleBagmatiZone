@@ -1,0 +1,41 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.prarthana.vehicle.obj;
+
+/**
+ *
+ * @author Pavilion G4
+ */
+public class Rasuwa extends BagmatiZone{
+
+    @Override
+    public String getDistrictName() {
+        return "Rasuwa";
+    }
+
+    @Override
+    public String getDistrictType() {
+        return "Mountain";
+    }
+
+    @Override
+    public String getDistrictHeadquarter() {
+        return "Dhunche";
+    }
+
+    @Override
+    public int getDistrictArea() {
+        return 1544;
+    }
+
+    @Override
+    public long getDistrictTotalPopulation() {
+        return 43300;
+    }
+
+   
+    
+}
